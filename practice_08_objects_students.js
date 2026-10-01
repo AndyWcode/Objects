@@ -33,18 +33,20 @@ const movie = {
   director: "Christopher Nolan",
   rating: "PG-13",
   runtime: 169,
+  watched: true
 };
 
-ForEach(movie.key) (x) ==> console.log(movie.key[value]);
+
 // TODO 1: Print the movie title
 // console.log(...)
-
+console.log(movie["title"]);
 // TODO 2: Print the director's name
 // console.log(...)
-
+console.log(movie["director"]);
 // TODO 3: Print true/false — is runtime over 120?
 // console.log(...)
-
+if(movie[5] > 120){console.log("true");}
+else{console.log("false");}
 // TODO 4: Add a `watched` property set to true
 // movie.??? = ???
 
@@ -55,6 +57,11 @@ ForEach(movie.key) (x) ==> console.log(movie.key[value]);
 // console.log("Rating:", ...)
 // console.log("Runtime:", ...)
 // console.log("Watched:", ...)
+a = Object.entries(movie)
+for(let i = 0; i < a.length; i++)
+{console.log(a[i][0] + ":" + a[i][1]) ;}
+ 
+
 
 // =================================================================
 // PROBLEM 2 — Build Your Own Object
