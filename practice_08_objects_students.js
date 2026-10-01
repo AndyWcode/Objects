@@ -35,6 +35,7 @@ const movie = {
   runtime: 169,
 };
 
+ForEach(movie.key) (x) ==> console.log(movie.key[value]);
 // TODO 1: Print the movie title
 // console.log(...)
 
