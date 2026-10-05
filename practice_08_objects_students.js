@@ -45,8 +45,7 @@ console.log(movie["title"]);
 console.log(movie["director"]);
 // TODO 3: Print true/false — is runtime over 120?
 // console.log(...)
-if(movie[5] > 120){console.log("true");}
-else{console.log("false");}
+
 // TODO 4: Add a `watched` property set to true
 // movie.??? = ???
 
