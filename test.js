@@ -22,7 +22,7 @@ function createstudent(name, grade, gpa){
 
 
 function findstudent(names){
-    return names
+    return student
 }
 
 students.find(findstudent);

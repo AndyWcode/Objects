@@ -57,8 +57,6 @@ console.log(movie["director"]);
 // console.log("Runtime:", ...)
 // console.log("Watched:", ...)
 a = Object.entries(movie)
-for(let i = 0; i < a.length; i++)
-{console.log(a[i][0] + ":" + a[i][1]) ;}
  
 
 
