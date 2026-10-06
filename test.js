@@ -18,11 +18,11 @@ function createstudent(name, grade, gpa){
     return student;
 }
 
-// problemo 3
+// 
 
 
-function findstudent(names){
-    return student
+for(let i = 0; i < students.length; i++){
+    if(Object.values(students)[i][0] = "Jane"){
+        console.log((students)[i][0]);
+    }
 }
-
-students.find(findstudent);
